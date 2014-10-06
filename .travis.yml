@@ -9,6 +9,8 @@ env:
   - DJANGO="https://www.djangoproject.com/download/1.7.b4/tarball/"
   - DJANGO="django==1.6.5"
   - DJANGO="django==1.5.8"
+  - DJANGO="django==1.4.2"
+  - DJANGO="django==1.4.15"
 
 services:
   - postgresql
@@ -30,6 +32,6 @@ before_script:
 notifications:
   email:
     recipients:
-      - niwi@niwi.be
+      - dijakroot@gmail.com
     on_success: change
     on_failure: change
